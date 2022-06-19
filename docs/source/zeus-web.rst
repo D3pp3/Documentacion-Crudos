@@ -91,7 +91,6 @@ Damos click en el segundo link tar.gz(pgp, sha512)
     - Cortamos la carpeta y la movemos a nuestra carpeta personal creada 
 
 Una vez terminado esto debemos agregar al archivo .bashrc que se encuentra por lo general en **/home/mint19/.bashrc**. Esta ruta 
-
 **export PATH=/home/mint19/carpetaPersonal/programas/Tomcat/apache-tomcat-x.x.xx/bin:$PATH**
 
 Para ingresar a este archivo ingresamos a una terminal y escribimos,
@@ -116,6 +115,7 @@ Levantando Zeus-Web
 ---------------------
 
 Si ya tenemos el ide instalado y configurado seguimos con este tutorial sino podemos debemos ir al apartado de instalación de IntelliJ
+
 .. toctree::
     IDE
 
