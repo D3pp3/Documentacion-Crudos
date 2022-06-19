@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Documentacion'
+copyright = '2022, PPS'
+author = 'Crudos PPS'
 
 release = '0.1'
 version = '0.1.0'
