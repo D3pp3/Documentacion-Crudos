@@ -122,5 +122,59 @@ Si ya tenemos el ide instalado y configurado seguimos con este tutorial sino pod
 Configurando Proyecto Zeus-Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Clonamos el proyecto del repositorio, lo recomendable es organizarnos y armar una carpeta para todos los proyecto que vallamos tocando de la empresa.
-Si realizamos todo el 
+Clonamos el proyecto del repositorio, lo recomendable es organizarnos y armar una carpeta para todos los proyecto que vallamos utilizando de la empresa.
+Si realizamos la configuración desde el comienzo podemos crear una nueva carpeta para clonar en ella los proyecto que vallamos utilizando de la empresa.
+
+**/home/mint19/carpetaPersonal/proyectos/zeus-web**
+
+Nos dirigimos a la carpeta.
+
+Abriendo zeus-web en IntelliJ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: console
+    $ cd ~/carpetaPersonal/proyectos/zeus-web
+
+Abrimos IntelliJIDEA y procedemos a abrir el proyecto.
+    - file -> New -> Project from existing source...
+Y seleccionamos el proyecto que acabamos de clonar.
+
+Mientras termina de indexar el proyecto vamos a ir haciendo algunas configuraciones.
+    - file -> Project Structure
+    - seleccionamos la versión 8 de java para este proyecto
+
+.. image:: ../img/configuracionJavaIDE.png
+
+Smart Tomcat
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Luego vamos a
+    - file -> settings -> plugins
+    - Buscamos e instalamos Smart Tomcat
+
+Una vez finalizada la instalación, deberiamos configurar tomcat para levantar zeus-web
+
+.. image:: ../img/configurarSmartTomcat.png
+
+.. image:: ../img/agregarServidor.png
+
+seleccionamos smartTomcat 
+    - Name: Colocamos el nombre que nos parezca conveniente
+    - Deployment Directory: Se deberia autocompletar pero en el caso que no se autocomplete deberiamos colocar la ruta completa del proyecto más zeus-web/src/main/webapp
+    - Content Path: /zeus-web
+    - Server Port: 8080
+    - Admin Port: 8005
+    - VM Options: -Xms512m -Xmx2048m
+    - Env Options: No es necesaria su configuración
+
+Heap Size
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ahora vamos a modificar el heapSize para que no este toda una vida tratando de compilar el proyecto
+    - Ctrl + Alt + s
+    - Build, Execution, Deployment -> compiler 
+        - Modificamos el valor de:
+            - Shared build process heap size (Mbytes): 3048
+
+.. image:: ../img/heapSize.png
+
