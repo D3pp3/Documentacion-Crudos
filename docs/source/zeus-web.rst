@@ -1,37 +1,37 @@
 Zeus-Web
 ===============
 
-Tener en cuenta que enseñaremos a levantar el proyecto en el sistema operativo Linux, que es el que proporciona la empresa. Aunque la empresa brinde soporte para el IDE eclipse la mayoria usamos IntelliJIdea por lo que los ejemplos siempre estaran hechos con ese IDE.
+Tener en cuenta que mostraremos como levantar el proyecto en el sistema operativo Linux, que es el que proporciona la empresa. Aunque la empresa brinde soporte para el IDE eclipse la mayoria usamos IntelliJIdea por lo que los ejemplos siempre estaran hechos con ese IDE.
 
 Requerimientos
 ---------------
 
 Para correr proyecto necesitamos:
-    - Java versión 8
+    - Java versiÃ³n 8
     - Maven version 3.6.0 como minimo.
     - IDE IntelliJIdea
 
 Java
 ---------------
 
-Instalaremos la versión de Java 8 mediante la consola.
+Instalaremos la versiÃ³n de Java 8 mediante la consola.
 
 .. code-block:: console
     $ sudo apt install openjdk-8-jdk openjdk-8-jre
 
-La ubicación por defecto de la instalación es **/usr/lib/jvm**. Para comenzar a usar esta versión ingresaremos en la consola el siguiente comando.
+La ubicaciï¿½n por defecto de la instalaciï¿½n es **/usr/lib/jvm**. Para comenzar a usar esta versiï¿½n ingresaremos en la consola el siguiente comando.
 
 .. code-block:: console
     $ sudo update-alternatives --config java
 
 .. image:: ../img/alternatives.png
 
-Elegimos la opción de java 8 y con esto terminamos la instalación de java.
+Elegimos la opciï¿½n de java 8 y con esto terminamos la instalaciï¿½n de java.
 
 Maven
 ---------------
 
-Lo más correcto seria tener una carpeta personal para ubicar todos los programas que vallamos necesitando y/o utilizando para mantener un orden y saber donde estan ubicados ya que más adelante necesitaremos saber donde se encuentren por cambios de versión o configuración que vamos a ver mas adelante.
+Lo mÃ¡s correcto seria tener una carpeta personal para ubicar todos los programas que vallamos necesitando y/o utilizando para mantener un orden y saber donde estan ubicados ya que mÃ¡s adelante necesitaremos saber donde se encuentren por cambios de versiÃ³n o configuraciÃ³n que vamos a ver mas adelante.
 
 **Ej: /home/mint19/carpetaPersonal/programas/maven**
 
@@ -65,19 +65,19 @@ Agregamos la linea guardamos con **Ctrl + o** , **ENTER** para confirmar y **Ctr
 .. code-block:: console
     $ source .bashrc
 
-Con este comando actualizamos los cambios realizados en el archivo de configuración .bashrc, luego escribimos:
+Con este comando actualizamos los cambios realizados en el archivo de configuraciÃ³n .bashrc, luego escribimos:
 
 .. code-block:: console
     $ mvn -version
 
-Si hicimos todo correctamente nos mostrara la versión de maven instalada de la siguiente manera:
+Si hicimos todo correctamente nos mostrara la versiï¿½n de maven instalada de la siguiente manera:
 
 .. image:: ../img/mvnVersion.png
 
 Tomcat
 ---------------
 
-Ingresaremos a este link para descargar la versión 9.
+Ingresaremos a este link para descargar la versiÃ³n 9.
 
 `Tomcat <https://tomcat.apache.org/download-90.cgi>`_
 
@@ -85,9 +85,9 @@ Ingresaremos a este link para descargar la versión 9.
 
 Damos click en el segundo link tar.gz(pgp, sha512)
     - Nos dirigimos a la carpeta donde descargamos el archivo.
-    - Damos click derecho sobre el archivo y seleccionamos **extraer aquí**
+    - Damos click derecho sobre el archivo y seleccionamos **extraer aquï¿½**
     - Creamos una nueva carpeta en nuestra ruta para programas 
-    **/home/mint19/carpetaPersonal/programas/Tomcat**
+    - **/home/mint19/carpetaPersonal/programas/Tomcat**
     - Cortamos la carpeta y la movemos a nuestra carpeta personal creada 
 
 Una vez terminado esto debemos agregar al archivo .bashrc que se encuentra por lo general en **/home/mint19/.bashrc**. Esta ruta 
