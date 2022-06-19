@@ -19,14 +19,14 @@ Instalaremos la versión de Java 8 mediante la consola.
 .. code-block:: console
     $ sudo apt install openjdk-8-jdk openjdk-8-jre
 
-La ubicaci�n por defecto de la instalaci�n es **/usr/lib/jvm**. Para comenzar a usar esta versi�n ingresaremos en la consola el siguiente comando.
+La ubicación por defecto de la instalación es **/usr/lib/jvm**. Para comenzar a usar esta versi�n ingresaremos en la consola el siguiente comando.
 
 .. code-block:: console
     $ sudo update-alternatives --config java
 
 .. image:: ../img/alternatives.png
 
-Elegimos la opci�n de java 8 y con esto terminamos la instalaci�n de java.
+Elegimos la opci�n de java 8 y con esto terminamos la instalación de java.
 
 Maven
 ---------------
@@ -85,7 +85,7 @@ Ingresaremos a este link para descargar la versión 9.
 
 Damos click en el segundo link tar.gz(pgp, sha512)
     - Nos dirigimos a la carpeta donde descargamos el archivo.
-    - Damos click derecho sobre el archivo y seleccionamos **extraer aqu�**
+    - Damos click derecho sobre el archivo y seleccionamos **extraer aquí**
     - Creamos una nueva carpeta en nuestra ruta para programas 
     - **/home/mint19/carpetaPersonal/programas/Tomcat**
     - Cortamos la carpeta y la movemos a nuestra carpeta personal creada 

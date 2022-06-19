@@ -9,5 +9,6 @@ Contents
 .. toctree::
 
    zeus-web
+   IDE
    usage
    api
