@@ -43,7 +43,7 @@ O por medio de interfaz, lo que mas te guste.
 
 Luego ingresamos a este link,
 
-`Maven <https://maven.apache.org/download.cgi>`
+`Maven <https://maven.apache.org/download.cgi>`_
 
 y buscamos el apartado **Files**
 
@@ -79,7 +79,7 @@ Tomcat
 
 Ingresaremos a este link para descargar la versión 9.
 
-`Tomcat <https://tomcat.apache.org/download-90.cgi>`
+`Tomcat <https://tomcat.apache.org/download-90.cgi>`_
 
 .. image:: ../img/tomcaDownload.png
 
