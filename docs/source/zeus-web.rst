@@ -112,3 +112,15 @@ Para verificar que realizamos todo este procedimiento lo correctamente. Nos diri
     - Si es correcto nos mostrara la pagina de apache-tomcat
     - Luego damos doble click en el archivo **shutdown.sh**, para parar el servidor.
 
+Levantando Zeus-Web
+---------------------
+
+Si ya tenemos el ide instalado y configurado seguimos con este tutorial sino podemos debemos ir al apartado de instalación de IntelliJ
+.. toctree::
+    IDE
+
+Configurando Proyecto Zeus-Web
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Clonamos el proyecto del repositorio, lo recomendable es organizarnos y armar una carpeta para todos los proyecto que vallamos tocando de la empresa.
+Si realizamos todo el 

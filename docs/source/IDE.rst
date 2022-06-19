@@ -24,7 +24,7 @@ Seguido del siguiente comando para descoprimir el archivo descargado:
 .. code-block:: console
     $ tar xvf ideaIC-2021.2.2.tar.gz
 
-.. image:: ../img/descomprimirDescargar.png
+.. image:: ../img/descomprimirDescarga.png
 
 Despues de completado este proceso movemos la carpeta obtenida a:
 
